@@ -7,13 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9F64A6F7C7E69E66621CF61 /* Pods_YapMglUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475289267DB41E7DB78C53CC /* Pods_YapMglUITests.framework */; };
+		D3D397ED052AFC5207895452 /* Pods_YapMglTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1F93C8961FD4CE4B950A40 /* Pods_YapMglTests.framework */; };
+		E55A56BC1FE565B900D97D4B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55A56BB1FE565B900D97D4B /* Realm.framework */; };
+		E55A56BD1FE565B900D97D4B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E55A56BB1FE565B900D97D4B /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E56B63051FEF831E009E5F6D /* YapMglUgesSeve.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B63041FEF831E009E5F6D /* YapMglUgesSeve.swift */; };
+		E58479401FF1349E00661EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E584793E1FF1349E00661EFD /* Main.storyboard */; };
+		E5917604200CDA0100ACA554 /* mglyapTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5917603200CDA0100ACA554 /* mglyapTool.swift */; };
+		E5917606200CDAD600ACA554 /* mglyapTool.csv in Resources */ = {isa = PBXBuildFile; fileRef = E5917605200CDAD600ACA554 /* mglyapTool.csv */; };
+		E592DBBA20133D8500368944 /* hevgal.png in Resources */ = {isa = PBXBuildFile; fileRef = E592DBB920133D8500368944 /* hevgal.png */; };
+		E592DBBE2013826A00368944 /* JarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592DBBD2013826A00368944 /* JarViewController.swift */; };
+		E59305441FED42690051798D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59305431FED42690051798D /* ViewController.swift */; };
+		E598C4B2201CBF2200FFE65A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = E598C4B1201CBF2200FFE65A /* delete.png */; };
+		E5A0D11C200A44FA00202A70 /* gajr.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A0D11B200A44FA00202A70 /* gajr.png */; };
+		E5A0D11E200A4D9F00202A70 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0D11D200A4D9F00202A70 /* Message.swift */; };
+		E5A77C93201D90EC00799C75 /* b_jar.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C8F201D90EC00799C75 /* b_jar.png */; };
+		E5A77C94201D90EC00799C75 /* b_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C90201D90EC00799C75 /* b_delete.png */; };
+		E5A77C95201D90EC00799C75 /* b_history.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C91201D90EC00799C75 /* b_history.png */; };
+		E5A77C96201D90EC00799C75 /* b_hors.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C92201D90EC00799C75 /* b_hors.png */; };
 		E5B2D24A1FADD1390076662C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2D2491FADD1390076662C /* AppDelegate.swift */; };
-		E5B2D24C1FADD1390076662C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2D24B1FADD1390076662C /* ViewController.swift */; };
-		E5B2D24F1FADD1390076662C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B2D24D1FADD1390076662C /* Main.storyboard */; };
 		E5B2D2511FADD1390076662C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B2D2501FADD1390076662C /* Assets.xcassets */; };
 		E5B2D2541FADD1390076662C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B2D2521FADD1390076662C /* LaunchScreen.storyboard */; };
 		E5B2D25F1FADD1390076662C /* YapMglTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2D25E1FADD1390076662C /* YapMglTests.swift */; };
 		E5B2D26A1FADD1390076662C /* YapMglUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B2D2691FADD1390076662C /* YapMglUITests.swift */; };
+		E5B2D27C1FADF2410076662C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B2D27B1FADF2410076662C /* RealmSwift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E5B2D27D1FADF2410076662C /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5B2D27B1FADF2410076662C /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5B47029203720AA005FD524 /* hvg.gif in Resources */ = {isa = PBXBuildFile; fileRef = E5B47028203720AA005FD524 /* hvg.gif */; };
+		E5B4702B20372243005FD524 /* hevgal1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B4702A20372243005FD524 /* hevgal1.png */; };
+		E5B4702D2037227E005FD524 /* hevgal2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B4702C2037227E005FD524 /* hevgal2.png */; };
+		E5B4702F20372993005FD524 /* LaunchViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B4702E20372993005FD524 /* LaunchViewViewController.swift */; };
+		E5BE1BA820123E0D00C3C389 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BE1BA720123E0D00C3C389 /* save.png */; };
+		E5BE1BAA201240AF00C3C389 /* hisSave.png in Resources */ = {isa = PBXBuildFile; fileRef = E5BE1BA9201240AF00C3C389 /* hisSave.png */; };
+		E5E150521FEE947F00180D11 /* UgsInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E150511FEE947F00180D11 /* UgsInController.swift */; };
+		E5E3A8C020079FD30012CADF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3A8BF20079FD30012CADF /* SecondViewController.swift */; };
+		E5E3A8CC2007A8190012CADF /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C22007A8190012CADF /* arrow.png */; };
+		E5E3A8CD2007A8190012CADF /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C32007A8190012CADF /* back.png */; };
+		E5E3A8CE2007A8190012CADF /* guanggao.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C42007A8190012CADF /* guanggao.png */; };
+		E5E3A8CF2007A8190012CADF /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C52007A8190012CADF /* history.png */; };
+		E5E3A8D02007A8190012CADF /* horseback.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C62007A8190012CADF /* horseback.png */; };
+		E5E3A8D22007A8190012CADF /* nomsom.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C82007A8190012CADF /* nomsom.png */; };
+		E5E3A8D32007A8190012CADF /* search_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8C92007A8190012CADF /* search_filled.png */; };
+		E5E3A8D42007A8190012CADF /* somback.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8CA2007A8190012CADF /* somback.png */; };
+		E5E3A8D52007A8190012CADF /* sumo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E3A8CB2007A8190012CADF /* sumo.png */; };
+		E5E3A8D72007ADDC0012CADF /* TailburViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3A8D62007ADDC0012CADF /* TailburViewController.swift */; };
+		E5EC19C21FE6855600E431FD /* YapMglUgs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC19C11FE6855600E431FD /* YapMglUgs.swift */; };
+		F2EB35BFFC7E0DFDEA2BA74E /* Pods_YapMgl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8537130D28DCEA04F6AD05 /* Pods_YapMgl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +71,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E5B2D27A1FADF22A0076662C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E55A56BD1FE565B900D97D4B /* Realm.framework in Embed Frameworks */,
+				E5B2D27D1FADF2410076662C /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		30206D7F9895CAB4F5E43E7E /* Pods-YapMglUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapMglUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapMglUITests/Pods-YapMglUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38C58D7B5FD79E0368899AC2 /* Pods-YapMgl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapMgl.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapMgl/Pods-YapMgl.release.xcconfig"; sourceTree = "<group>"; };
+		3D8F5661E21C3DF572858EE5 /* Pods-YapMglUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapMglUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YapMglUITests/Pods-YapMglUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1F93C8961FD4CE4B950A40 /* Pods_YapMglTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapMglTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475289267DB41E7DB78C53CC /* Pods_YapMglUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapMglUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EA03D410693A5A3A9851A3 /* Pods-YapMgl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapMgl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YapMgl/Pods-YapMgl.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8537130D28DCEA04F6AD05 /* Pods_YapMgl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YapMgl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA677B0818FB157566222CBA /* Pods-YapMglTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapMglTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YapMglTests/Pods-YapMglTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF63B5D2BEBF0DB1B15BBBD6 /* Pods-YapMglTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YapMglTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YapMglTests/Pods-YapMglTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E55A56BB1FE565B900D97D4B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		E56B63041FEF831E009E5F6D /* YapMglUgesSeve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapMglUgesSeve.swift; sourceTree = "<group>"; };
+		E584793F1FF1349E00661EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = YapMgl/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5917603200CDA0100ACA554 /* mglyapTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mglyapTool.swift; sourceTree = "<group>"; };
+		E5917605200CDAD600ACA554 /* mglyapTool.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mglyapTool.csv; sourceTree = "<group>"; };
+		E592DBB920133D8500368944 /* hevgal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hevgal.png; sourceTree = "<group>"; };
+		E592DBBD2013826A00368944 /* JarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JarViewController.swift; sourceTree = "<group>"; };
+		E59305431FED42690051798D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E598C4B1201CBF2200FFE65A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		E5A0D11B200A44FA00202A70 /* gajr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gajr.png; sourceTree = "<group>"; };
+		E5A0D11D200A4D9F00202A70 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E5A77C8F201D90EC00799C75 /* b_jar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_jar.png; sourceTree = "<group>"; };
+		E5A77C90201D90EC00799C75 /* b_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_delete.png; sourceTree = "<group>"; };
+		E5A77C91201D90EC00799C75 /* b_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_history.png; sourceTree = "<group>"; };
+		E5A77C92201D90EC00799C75 /* b_hors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_hors.png; sourceTree = "<group>"; };
 		E5B2D2461FADD1390076662C /* YapMgl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YapMgl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B2D2491FADD1390076662C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5B2D24B1FADD1390076662C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5B2D24E1FADD1390076662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B2D2501FADD1390076662C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B2D2531FADD1390076662C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5B2D2551FADD1390076662C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +122,26 @@
 		E5B2D2651FADD1390076662C /* YapMglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YapMglUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B2D2691FADD1390076662C /* YapMglUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapMglUITests.swift; sourceTree = "<group>"; };
 		E5B2D26B1FADD1390076662C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B2D27B1FADF2410076662C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		E5B47028203720AA005FD524 /* hvg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hvg.gif; sourceTree = "<group>"; };
+		E5B4702A20372243005FD524 /* hevgal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hevgal1.png; sourceTree = "<group>"; };
+		E5B4702C2037227E005FD524 /* hevgal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hevgal2.png; sourceTree = "<group>"; };
+		E5B4702E20372993005FD524 /* LaunchViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewViewController.swift; sourceTree = "<group>"; };
+		E5BE1BA720123E0D00C3C389 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		E5BE1BA9201240AF00C3C389 /* hisSave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hisSave.png; sourceTree = "<group>"; };
+		E5E150511FEE947F00180D11 /* UgsInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UgsInController.swift; sourceTree = "<group>"; };
+		E5E3A8BF20079FD30012CADF /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E5E3A8C22007A8190012CADF /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		E5E3A8C32007A8190012CADF /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E5E3A8C42007A8190012CADF /* guanggao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guanggao.png; sourceTree = "<group>"; };
+		E5E3A8C52007A8190012CADF /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		E5E3A8C62007A8190012CADF /* horseback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horseback.png; sourceTree = "<group>"; };
+		E5E3A8C82007A8190012CADF /* nomsom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nomsom.png; sourceTree = "<group>"; };
+		E5E3A8C92007A8190012CADF /* search_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_filled.png; sourceTree = "<group>"; };
+		E5E3A8CA2007A8190012CADF /* somback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = somback.png; sourceTree = "<group>"; };
+		E5E3A8CB2007A8190012CADF /* sumo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sumo.png; sourceTree = "<group>"; };
+		E5E3A8D62007ADDC0012CADF /* TailburViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TailburViewController.swift; sourceTree = "<group>"; };
+		E5EC19C11FE6855600E431FD /* YapMglUgs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapMglUgs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +149,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55A56BC1FE565B900D97D4B /* Realm.framework in Frameworks */,
+				E5B2D27C1FADF2410076662C /* RealmSwift.framework in Frameworks */,
+				F2EB35BFFC7E0DFDEA2BA74E /* Pods_YapMgl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D397ED052AFC5207895452 /* Pods_YapMglTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +167,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F64A6F7C7E69E66621CF61 /* Pods_YapMglUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF78721DD15402382EAB639C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE8537130D28DCEA04F6AD05 /* Pods_YapMgl.framework */,
+				3E1F93C8961FD4CE4B950A40 /* Pods_YapMglTests.framework */,
+				475289267DB41E7DB78C53CC /* Pods_YapMglUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5B2D23D1FADD1380076662C = {
 			isa = PBXGroup;
 			children = (
+				E55A56BB1FE565B900D97D4B /* Realm.framework */,
+				E5B2D27B1FADF2410076662C /* RealmSwift.framework */,
 				E5B2D2481FADD1390076662C /* YapMgl */,
 				E5B2D25D1FADD1390076662C /* YapMglTests */,
 				E5B2D2681FADD1390076662C /* YapMglUITests */,
 				E5B2D2471FADD1390076662C /* Products */,
+				F3372FAE06E225618E025A4D /* Pods */,
+				BF78721DD15402382EAB639C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +211,22 @@
 		E5B2D2481FADD1390076662C /* YapMgl */ = {
 			isa = PBXGroup;
 			children = (
+				E584793E1FF1349E00661EFD /* Main.storyboard */,
+				E5917603200CDA0100ACA554 /* mglyapTool.swift */,
+				E5EC19C11FE6855600E431FD /* YapMglUgs.swift */,
+				E56B63041FEF831E009E5F6D /* YapMglUgesSeve.swift */,
+				E5E150511FEE947F00180D11 /* UgsInController.swift */,
+				E59305431FED42690051798D /* ViewController.swift */,
+				E5E3A8BF20079FD30012CADF /* SecondViewController.swift */,
+				E5E3A8D62007ADDC0012CADF /* TailburViewController.swift */,
+				E592DBBD2013826A00368944 /* JarViewController.swift */,
+				E5A0D11D200A4D9F00202A70 /* Message.swift */,
 				E5B2D2491FADD1390076662C /* AppDelegate.swift */,
-				E5B2D24B1FADD1390076662C /* ViewController.swift */,
-				E5B2D24D1FADD1390076662C /* Main.storyboard */,
+				E5917605200CDAD600ACA554 /* mglyapTool.csv */,
+				E5E3A8C12007A8190012CADF /* ICONS */,
 				E5B2D2501FADD1390076662C /* Assets.xcassets */,
 				E5B2D2521FADD1390076662C /* LaunchScreen.storyboard */,
+				E5B4702E20372993005FD524 /* LaunchViewViewController.swift */,
 				E5B2D2551FADD1390076662C /* Info.plist */,
 			);
 			path = YapMgl;
@@ -125,6 +250,47 @@
 			path = YapMglUITests;
 			sourceTree = "<group>";
 		};
+		E5E3A8C12007A8190012CADF /* ICONS */ = {
+			isa = PBXGroup;
+			children = (
+				E5E3A8C22007A8190012CADF /* arrow.png */,
+				E5E3A8C32007A8190012CADF /* back.png */,
+				E5A77C8F201D90EC00799C75 /* b_jar.png */,
+				E5B47028203720AA005FD524 /* hvg.gif */,
+				E5A77C90201D90EC00799C75 /* b_delete.png */,
+				E5B4702A20372243005FD524 /* hevgal1.png */,
+				E5B4702C2037227E005FD524 /* hevgal2.png */,
+				E5A77C91201D90EC00799C75 /* b_history.png */,
+				E5A77C92201D90EC00799C75 /* b_hors.png */,
+				E5BE1BA9201240AF00C3C389 /* hisSave.png */,
+				E598C4B1201CBF2200FFE65A /* delete.png */,
+				E592DBB920133D8500368944 /* hevgal.png */,
+				E5BE1BA720123E0D00C3C389 /* save.png */,
+				E5E3A8C42007A8190012CADF /* guanggao.png */,
+				E5E3A8C52007A8190012CADF /* history.png */,
+				E5E3A8C62007A8190012CADF /* horseback.png */,
+				E5E3A8C82007A8190012CADF /* nomsom.png */,
+				E5E3A8C92007A8190012CADF /* search_filled.png */,
+				E5E3A8CA2007A8190012CADF /* somback.png */,
+				E5A0D11B200A44FA00202A70 /* gajr.png */,
+				E5E3A8CB2007A8190012CADF /* sumo.png */,
+			);
+			path = ICONS;
+			sourceTree = "<group>";
+		};
+		F3372FAE06E225618E025A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48EA03D410693A5A3A9851A3 /* Pods-YapMgl.debug.xcconfig */,
+				38C58D7B5FD79E0368899AC2 /* Pods-YapMgl.release.xcconfig */,
+				BF63B5D2BEBF0DB1B15BBBD6 /* Pods-YapMglTests.debug.xcconfig */,
+				BA677B0818FB157566222CBA /* Pods-YapMglTests.release.xcconfig */,
+				3D8F5661E21C3DF572858EE5 /* Pods-YapMglUITests.debug.xcconfig */,
+				30206D7F9895CAB4F5E43E7E /* Pods-YapMglUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +298,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B2D26E1FADD1390076662C /* Build configuration list for PBXNativeTarget "YapMgl" */;
 			buildPhases = (
+				B79083FFB0A858C507D1B8F1 /* [CP] Check Pods Manifest.lock */,
 				E5B2D2421FADD1380076662C /* Sources */,
 				E5B2D2431FADD1380076662C /* Frameworks */,
 				E5B2D2441FADD1380076662C /* Resources */,
+				E5B2D27A1FADF22A0076662C /* Embed Frameworks */,
+				63E6D0C5AB005542CCBB3DF6 /* [CP] Embed Pods Frameworks */,
+				EA9C40188C19B89E178F1013 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B2D2711FADD1390076662C /* Build configuration list for PBXNativeTarget "YapMglTests" */;
 			buildPhases = (
+				38D2BF98FC20E4457C196164 /* [CP] Check Pods Manifest.lock */,
 				E5B2D2561FADD1390076662C /* Sources */,
 				E5B2D2571FADD1390076662C /* Frameworks */,
 				E5B2D2581FADD1390076662C /* Resources */,
+				BDD1868C78C1F6A9DB8F48B6 /* [CP] Embed Pods Frameworks */,
+				BD67A09AF1AFBB5C60EE1CC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B2D2741FADD1390076662C /* Build configuration list for PBXNativeTarget "YapMglUITests" */;
 			buildPhases = (
+				E7F2D74018920075AA6FAA14 /* [CP] Check Pods Manifest.lock */,
 				E5B2D2611FADD1390076662C /* Sources */,
 				E5B2D2621FADD1390076662C /* Frameworks */,
 				E5B2D2631FADD1390076662C /* Resources */,
+				F468BC58822DFACACE025907 /* [CP] Embed Pods Frameworks */,
+				30F12422A5B2F19FCAEC2D01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +408,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58479401FF1349E00661EFD /* Main.storyboard in Resources */,
+				E5B4702D2037227E005FD524 /* hevgal2.png in Resources */,
+				E5E3A8D52007A8190012CADF /* sumo.png in Resources */,
+				E5917606200CDAD600ACA554 /* mglyapTool.csv in Resources */,
+				E5A77C95201D90EC00799C75 /* b_history.png in Resources */,
+				E5E3A8D22007A8190012CADF /* nomsom.png in Resources */,
+				E5B47029203720AA005FD524 /* hvg.gif in Resources */,
+				E5E3A8CD2007A8190012CADF /* back.png in Resources */,
+				E5E3A8D02007A8190012CADF /* horseback.png in Resources */,
+				E5A77C94201D90EC00799C75 /* b_delete.png in Resources */,
+				E5A77C93201D90EC00799C75 /* b_jar.png in Resources */,
+				E592DBBA20133D8500368944 /* hevgal.png in Resources */,
+				E5A0D11C200A44FA00202A70 /* gajr.png in Resources */,
+				E5E3A8CE2007A8190012CADF /* guanggao.png in Resources */,
 				E5B2D2541FADD1390076662C /* LaunchScreen.storyboard in Resources */,
+				E5B4702B20372243005FD524 /* hevgal1.png in Resources */,
+				E5E3A8D32007A8190012CADF /* search_filled.png in Resources */,
+				E5BE1BA820123E0D00C3C389 /* save.png in Resources */,
+				E5BE1BAA201240AF00C3C389 /* hisSave.png in Resources */,
 				E5B2D2511FADD1390076662C /* Assets.xcassets in Resources */,
-				E5B2D24F1FADD1390076662C /* Main.storyboard in Resources */,
+				E5A77C96201D90EC00799C75 /* b_hors.png in Resources */,
+				E5E3A8CC2007A8190012CADF /* arrow.png in Resources */,
+				E5E3A8D42007A8190012CADF /* somback.png in Resources */,
+				E598C4B2201CBF2200FFE65A /* delete.png in Resources */,
+				E5E3A8CF2007A8190012CADF /* history.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +452,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30F12422A5B2F19FCAEC2D01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YapMglUITests/Pods-YapMglUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D2BF98FC20E4457C196164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapMglTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63E6D0C5AB005542CCBB3DF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YapMgl/Pods-YapMgl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YapMgl/Pods-YapMgl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79083FFB0A858C507D1B8F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapMgl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD67A09AF1AFBB5C60EE1CC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YapMglTests/Pods-YapMglTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD1868C78C1F6A9DB8F48B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YapMglTests/Pods-YapMglTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F2D74018920075AA6FAA14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YapMglUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9C40188C19B89E178F1013 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YapMgl/Pods-YapMgl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F468BC58822DFACACE025907 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YapMglUITests/Pods-YapMglUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5B2D2421FADD1380076662C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B2D24C1FADD1390076662C /* ViewController.swift in Sources */,
+				E56B63051FEF831E009E5F6D /* YapMglUgesSeve.swift in Sources */,
+				E5E150521FEE947F00180D11 /* UgsInController.swift in Sources */,
+				E592DBBE2013826A00368944 /* JarViewController.swift in Sources */,
+				E59305441FED42690051798D /* ViewController.swift in Sources */,
+				E5917604200CDA0100ACA554 /* mglyapTool.swift in Sources */,
+				E5B4702F20372993005FD524 /* LaunchViewViewController.swift in Sources */,
+				E5E3A8D72007ADDC0012CADF /* TailburViewController.swift in Sources */,
 				E5B2D24A1FADD1390076662C /* AppDelegate.swift in Sources */,
+				E5E3A8C020079FD30012CADF /* SecondViewController.swift in Sources */,
+				E5A0D11E200A4D9F00202A70 /* Message.swift in Sources */,
+				E5EC19C21FE6855600E431FD /* YapMglUgs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +655,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5B2D24D1FADD1390076662C /* Main.storyboard */ = {
+		E584793E1FF1349E00661EFD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5B2D24E1FADD1390076662C /* Base */,
+				E584793F1FF1349E00661EFD /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E5B2D2521FADD1390076662C /* LaunchScreen.storyboard */ = {
@@ -408,8 +768,13 @@
 		};
 		E5B2D26F1FADD1390076662C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EA03D410693A5A3A9851A3 /* Pods-YapMgl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YapMgl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = takaraizumi.YapMgl;
@@ -420,8 +785,13 @@
 		};
 		E5B2D2701FADD1390076662C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C58D7B5FD79E0368899AC2 /* Pods-YapMgl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = YapMgl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = takaraizumi.YapMgl;
@@ -432,6 +802,7 @@
 		};
 		E5B2D2721FADD1390076662C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF63B5D2BEBF0DB1B15BBBD6 /* Pods-YapMglTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +817,7 @@
 		};
 		E5B2D2731FADD1390076662C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA677B0818FB157566222CBA /* Pods-YapMglTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +832,7 @@
 		};
 		E5B2D2751FADD1390076662C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8F5661E21C3DF572858EE5 /* Pods-YapMglUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = YapMglUITests/Info.plist;
@@ -473,6 +846,7 @@
 		};
 		E5B2D2761FADD1390076662C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30206D7F9895CAB4F5E43E7E /* Pods-YapMglUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = YapMglUITests/Info.plist;
@@ -503,6 +877,7 @@
 				E5B2D2701FADD1390076662C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5B2D2711FADD1390076662C /* Build configuration list for PBXNativeTarget "YapMglTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +886,7 @@
 				E5B2D2731FADD1390076662C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5B2D2741FADD1390076662C /* Build configuration list for PBXNativeTarget "YapMglUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +895,7 @@
 				E5B2D2761FADD1390076662C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
